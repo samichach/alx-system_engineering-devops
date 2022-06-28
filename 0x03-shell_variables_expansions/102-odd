@@ -1,2 +1,2 @@
 #!/bin/bash
-printf "%s\n" {a..z}{a..z} | grep -v "oo"
+cat -n | grep [13579][[:space:]] | tr -s ' ' | cut -f2
